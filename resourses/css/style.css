@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    padding: 60px 10px 0;
+}
+
+header {
+    background-image: url(../images/pattern.webp);
+    margin-bottom: 60px;
+}
+
+header h1 {
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+.section__heading {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.section__heading--brushes {
+    background-color: mediumspringgreen;
+}
+
+.section__heading--frames {
+    background-color: lightcoral;
+}
+
+.section__heading--paint {
+    background-color: skyblue;
+}
+
+.section__image img {
+    margin-bottom: 20px;
+}
+
+.section__subheading {
+    margin-bottom: 10px;
+}
+
+.section__price {
+    font-weight: bold;
+    color: blue;
+}
